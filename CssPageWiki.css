@@ -2,8 +2,8 @@ body{
      background: repeating-linear-gradient(
       60deg,
       rgb(249, 80, 255) 0px,
-      rgb(249, 80, 255) 40px,
-      rgb(255, 255, 255) 40px,
+      rgb(198, 71, 202) 40px,
+      rgba(255, 108, 108, 0.651) 40px,
       rgb(255, 255, 255) 80px
     )
 }
@@ -14,9 +14,20 @@ h1 {
      text-shadow: -1px 0 black, 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px black;
    }
    .nav-bar{
-     position: absolute;
-     top: 10px;
-     right: 320px;
+     color:rgb(255, 255, 255);
+     display: flex;   
+     justify-content: space-evenly;
+     align-items: center;
+     margin:0%;
+     padding:0%;
+     background-color: rgb(238, 241, 10);
+     border-radius: 4px;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+ .nav-bar:hover{
+      background-color: mediumblue;
  }
 table, th, td {
      border: 1px dotted black;
@@ -67,10 +78,16 @@ table, th, td {
         width: 230px;
         box-shadow: 10px 10px ;
    }
-   iframe{
+   .frame-window{
      position:absolute;
      top: 300px;
      right: 20px;
      border:5px solid rgb(0, 0, 0);
      width: 230px;
+   }
+   .frame-title{
+        position: absolute;
+        bottom: 330px;
+        right: 20px;
+        border:5px solid rgb(0, 0, 0)
    }
