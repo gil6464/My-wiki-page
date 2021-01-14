@@ -102,6 +102,18 @@ a :hover{
      right: 20px;
      border:5px solid rgb(0, 0, 0)
 }
+button{
+     background-color: turquoise;
+     border: 2px solid var(--blue); 
+     border-radius: 10px;
+}
+.details{
+     position: absolute;
+     bottom: 10px;
+     width: 50%;
+     border: 3px solid #552fff;
+     border-radius: 10px;
+}
    /* Home page */
    /* History page */
   table, th, td {
