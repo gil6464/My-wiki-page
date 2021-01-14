@@ -1,3 +1,11 @@
 body{
-     background-color: darkorchid;
+     background: repeating-linear-gradient(
+      60deg,
+      rgb(249, 80, 255) 0px,
+      rgb(249, 80, 255) 40px,
+      rgb(255, 255, 255) 40px,
+      rgb(255, 255, 255) 80px
+    )
 }
+
+   
