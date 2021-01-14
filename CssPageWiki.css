@@ -7,6 +7,16 @@ body{
       rgb(255, 255, 255) 80px
     )
 }
+@media screen and (max-width: 800px) {
+     body {
+       background-color: rgb(255, 75, 231);
+     }
+   }
+   @media screen and (min-width: 810px) {
+     body {
+       background-color: rgb(82, 0, 75);
+     }
+   }
 h1 {
      text-shadow: 2px 2px red;
    }
@@ -114,4 +124,14 @@ img:hover{
         bottom: 330px;
         right: 20px;
         border:5px solid rgb(0, 0, 0)
+   }
+   .PicsCont {
+        display: flex;
+        flex-wrap: wrap;
+   }
+   .Pics {
+        flex: 20%; 
+        padding: 5px;
+        height: 200px;
+       
    }
