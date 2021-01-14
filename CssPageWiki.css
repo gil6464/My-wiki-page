@@ -13,7 +13,7 @@ h1 {
    div{
      text-shadow: -1px 0 black, 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px black;
    }
-   .nav-bar{
+   .nav-bar {
      color:rgb(255, 255, 255);
      display: flex;   
      justify-content: space-evenly;
@@ -26,8 +26,15 @@ h1 {
      top: 0;
      width: 100%;
  }
- .nav-bar:hover{
-      background-color: mediumblue;
+ .nav-bar :hover{
+      background-color: rgb(148, 170, 25);
+ }
+ body#home #home-link, body#history #history-link, body#gallery #gallery-link,body#team #team-link,body#table #table-link{
+      color: red
+ }
+ a:hover{
+      color: green;
+ }
  }
 table, th, td {
      border: 1px dotted black;
