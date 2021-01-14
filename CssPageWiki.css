@@ -168,14 +168,14 @@ button{
      height: 40px;
      position: absolute;
      margin:auto;
-     top: 150px;
+     top: 185px;
      right: 0;
      bottom: 0;
      left: 0;
      border-right: 4px solid #FFF;
      border-bottom: 4px solid #FFF;
      -webkit-transform: rotate(90deg);
-     transform: rotate(135deg);
+     transform: rotate(125deg);
      -webkit-animation: 3s arrow infinite ease;
      animation: 3s arrow infinite ease;
 }
