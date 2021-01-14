@@ -55,14 +55,14 @@ h1 {
  }
  :root{
      --blue: #2391ff;
-     --purple: #e300f8;
+     --grey: #888888;
      --yellow: #ffe70a;   
  }
  a:hover{
      color: var(--blue);
  }
  a:link {
-     color:var (--yellow);
+     color:var(--grey);
    }
 a:visited {
      color: var(--purple);
@@ -138,9 +138,11 @@ a :hover{
 .Pics {
      flex: 20%; 
      padding: 5px;
-     height: 200px;
-       
+     height: 200px;     
    }
+#table a{
+     color:black
+}
    /* Table page*/
    /* Team 10 page */
 .arrow-left{
