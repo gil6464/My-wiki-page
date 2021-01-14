@@ -32,9 +32,26 @@ h1 {
  body#home #home-link, body#history #history-link, body#gallery #gallery-link,body#team #team-link,body#table #table-link{
       color: red
  }
- a:hover{
-      color: green;
+ :root{
+      --blue: #2391ff;
+      --purple: #e300f8;
+      --yellow: #ffe70a;   
  }
+ a:hover{
+      color: var(--blue);
+ }
+ a:link {
+     color:var (--yellow);
+   }
+   a:visited {
+     color: var(--purple);
+   }
+   a:hover {
+     color: hotpink;
+   }
+   a:active {
+     color: blue;
+   }
  }
 table, th, td {
      border: 1px dotted black;
