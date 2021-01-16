@@ -19,15 +19,15 @@ body#home #home-link, body#history #history-link, body#gallery #gallery-link,bod
      -ms-flex: 50%;
      flex: 50%;
      max-width: 50%;
-          }
-        }
+ }
+}
 @media screen and (max-width: 600px) {
  .column {
      -ms-flex: 100%;
      flex: 100%;
      max-width: 100%;
   }
- }
+}
 @media screen and (max-width: 800px) {
  body {
      background-color: rgb(255, 75, 231);
@@ -127,6 +127,10 @@ button{
   table, th, td {
      border: 1px solid black;
      border-radius: 10px;
+}
+code{
+     font-weight: bold;
+     font-size: large;
 }
   /* History page*/
   /* Gallery page */
