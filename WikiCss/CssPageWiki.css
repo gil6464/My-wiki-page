@@ -5,7 +5,7 @@ body{
       rgb(198, 71, 202) 40px,
       rgba(255, 108, 108, 0.651) 40px,
       rgb(255, 255, 255) 80px
-    )
+ )
 }
 body#home #home-link, body#history #history-link, body#gallery #gallery-link,body#team #team-link,body#table #table-link{
      color: red
