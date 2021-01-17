@@ -109,9 +109,24 @@ button{
 }
 .details{
      position: absolute;
-     bottom: 10px;
+     bottom: 100px;
      width: 50%;
      border: 3px solid #552fff;
+     border-radius: 10px;
+}
+.carddiv{
+     position: relative;   
+}
+.card{
+     position: fixed;
+     bottom: 0px;
+     width: 100%;
+     text-align: center;
+}
+.GitLogo{
+     height: 25px;
+     width: 50px;
+     border: 1px solid black;
      border-radius: 10px;
 }
    /* Home page */
