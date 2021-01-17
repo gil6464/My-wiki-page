@@ -14,29 +14,20 @@ body#home #home-link, body#history #history-link, body#gallery #gallery-link,bod
      border: 1px solid blue;
      border-radius: 10px;
 }
-@media screen and (max-width: 800px) {
- .column {
-     -ms-flex: 50%;
-     flex: 50%;
-     max-width: 50%;
- }
+@media only screen /*media querie for Iphone*/
+and  (min-device-width:320px)
+and  (max-device-width:480px)
+and  (-webkit-min-device-pixel-ratio:2){     
 }
-@media screen and (max-width: 600px) {
- .column {
-     -ms-flex: 100%;
-     flex: 100%;
-     max-width: 100%;
- }
+@media only screen /*media querie for Tablets*/
+and  (min-device-width:768px)
+and  (max-device-width:1024px)
+and  (-webkit-min-device-pixel-ratio:1){     
 }
-@media screen and (max-width: 800px) {
- body {
-     background-color: rgb(255, 75, 231);
- }
-}
-@media screen and (min-width: 810px) {
- body {
-     background-color: rgb(82, 0, 75);
- }
+@media only screen /*media querie for Laptops*/
+and  (min-device-width:1200px)
+and  (max-device-width:1600px)
+and  (-webkit-min-device-pixel-ratio:1){     
 }
 h1 {
      text-shadow: 2px 2px red;
